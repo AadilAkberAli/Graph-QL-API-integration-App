@@ -1,0 +1,6 @@
+query getUserList{
+    getUsersList{
+        employeeRefNo,
+        designation
+    }
+}

@@ -1,0 +1,7 @@
+mutation addEmptyCarton($emptyCarton:CartonInput!) {
+
+    addEmptyCarton(emptyCarton:$emptyCarton) {
+        id
+    }
+
+}
